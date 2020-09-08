@@ -1,0 +1,22 @@
+h2 {
+  margin-bottom: 2em;
+}
+
+.text {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.text img {
+  width: 80%;
+  margin: 3rem auto 3rem auto;
+  display: block;
+  border: 0.25rem solid #a31f34;
+}
+/*# sourceMappingURL=Home.css.map */

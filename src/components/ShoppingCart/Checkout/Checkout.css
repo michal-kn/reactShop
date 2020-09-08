@@ -1,0 +1,155 @@
+#summary {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#summary #cart {
+  text-align: left;
+  padding: 0 5rem 2rem 5rem;
+}
+
+#summary #cart p {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+#summary #cart h3 {
+  margin: 1rem 0 1rem 0;
+}
+
+.clientDetails {
+  width: 100%;
+  padding: 0 5rem 0 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.clientDetails .shippingForm {
+  width: 20rem;
+}
+
+.clientDetails .paymentMethod {
+  border: 0;
+  width: 50%;
+  padding-left: 2.5rem;
+  padding-top: 3.3rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.clientDetails .paymentMethod #choosePayment {
+  width: 13.5rem;
+  height: 3.5rem;
+  border: 0;
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.clientDetails .paymentMethod #choosePayment:hover {
+  -webkit-box-shadow: 0px 0px 0px 3px #a31f34 inset;
+          box-shadow: 0px 0px 0px 3px #a31f34 inset;
+  cursor: pointer;
+}
+
+.clientDetails .paymentMethod .card form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.clientDetails .paymentMethod .card form input {
+  width: 20rem;
+  text-align: center;
+}
+
+.clientDetails .paymentMethod .onDel {
+  display: none;
+}
+
+.clientDetails form {
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.clientDetails form input {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem;
+}
+
+.clientDetails #cardCompany {
+  font-size: 15px;
+}
+
+#colorInfo,
+#paymentInfoWarning {
+  color: #a31f34;
+}
+
+@media screen and (max-width: 800px) {
+  #summary #cart {
+    text-align: center;
+  }
+  .shippingForm {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .clientDetails {
+    padding: 0;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .clientDetails .shippingForm {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+  }
+  .clientDetails form {
+    width: 100%;
+  }
+  .clientDetails .paymentMethod {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .clientDetails .card form {
+    width: 100%;
+  }
+  .clientDetails .card form input {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=Checkout.css.map */

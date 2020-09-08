@@ -1,0 +1,83 @@
+.item {
+  padding: 2rem;
+}
+
+.item img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.item p {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.item h3 {
+  margin-bottom: 1rem;
+}
+
+.item:hover {
+  -webkit-box-shadow: 0px 0px 0px 10px #a31f34 inset;
+          box-shadow: 0px 0px 0px 10px #a31f34 inset;
+}
+
+.item:hover .itemPrice {
+  color: #a31f34;
+}
+
+.product-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 960px) {
+  .product-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+button {
+  background: white;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border: 1px solid black;
+}
+
+button:hover {
+  background: #a31f34;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+
+.addedToCart {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #a31f34;
+}
+/*# sourceMappingURL=Products.css.map */

@@ -1,0 +1,96 @@
+.Navbar {
+  width: 100%;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.5rem 0 1.5rem;
+  text-align: center;
+}
+
+.Navbar li {
+  list-style-type: none;
+  padding: 0 3rem 0 3rem;
+}
+
+.menu {
+  display: none;
+}
+
+.Navbar-Desktop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Navbar-Mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.Navbar-links {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.Navbar-links:hover {
+  color: #a31f34;
+  text-decoration: none;
+}
+
+.activeNavbar {
+  border-bottom: 3px solid #a31f34;
+}
+
+@media screen and (max-width: 1100px) {
+  .Navbar-Desktop {
+    -webkit-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .Navbar-Mobile {
+    opacity: 1;
+    height: 140px;
+  }
+  .Navbar li {
+    padding: 0.3rem 0 0.3rem 0;
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  .logo {
+    margin-left: 3rem;
+  }
+}
+
+.logo {
+  width: 10rem;
+  position: absolute;
+  color: #a31f34;
+  white-space: nowrap;
+}
+
+.logo-Navbar-Mobile {
+  display: none;
+}
+/*# sourceMappingURL=Navbar.css.map */
