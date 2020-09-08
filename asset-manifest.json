@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/reactShop/static/css/main.bc077a93.chunk.css",
+    "main.js": "/reactShop/static/js/main.1adabd2e.chunk.js",
+    "main.js.map": "/reactShop/static/js/main.1adabd2e.chunk.js.map",
+    "runtime-main.js": "/reactShop/static/js/runtime-main.c3cdec72.js",
+    "runtime-main.js.map": "/reactShop/static/js/runtime-main.c3cdec72.js.map",
+    "static/js/2.2e0e0e90.chunk.js": "/reactShop/static/js/2.2e0e0e90.chunk.js",
+    "static/js/2.2e0e0e90.chunk.js.map": "/reactShop/static/js/2.2e0e0e90.chunk.js.map",
+    "index.html": "/reactShop/index.html",
+    "precache-manifest.0a327bf8b91b5b0d334c02a61ae6d8c9.js": "/reactShop/precache-manifest.0a327bf8b91b5b0d334c02a61ae6d8c9.js",
+    "service-worker.js": "/reactShop/service-worker.js",
+    "static/css/main.bc077a93.chunk.css.map": "/reactShop/static/css/main.bc077a93.chunk.css.map",
+    "static/js/2.2e0e0e90.chunk.js.LICENSE.txt": "/reactShop/static/js/2.2e0e0e90.chunk.js.LICENSE.txt",
+    "static/media/chair1.jpg": "/reactShop/static/media/chair1.f7c54123.jpg",
+    "static/media/chair2.jpg": "/reactShop/static/media/chair2.f9439649.jpg",
+    "static/media/chair3.jpg": "/reactShop/static/media/chair3.bb0e26a9.jpg",
+    "static/media/chair4.jpg": "/reactShop/static/media/chair4.9ce3866d.jpg",
+    "static/media/chair5.jpg": "/reactShop/static/media/chair5.fad8674b.jpg",
+    "static/media/chair6.jpg": "/reactShop/static/media/chair6.af7665f8.jpg",
+    "static/media/shop_photo.jpg": "/reactShop/static/media/shop_photo.cf350719.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3cdec72.js",
+    "static/js/2.2e0e0e90.chunk.js",
+    "static/css/main.bc077a93.chunk.css",
+    "static/js/main.1adabd2e.chunk.js"
+  ]
+}
